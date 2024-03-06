@@ -43,7 +43,6 @@ jobs:
       - name: Install AIDL
         run: |
           sudo apt-get install -y aidl
-          chmod +x aidl
           sudo mv aidl /usr/bin/aidl
 
       # Install dependencies for Android SDK
