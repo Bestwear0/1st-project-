@@ -42,7 +42,7 @@ jobs:
       # Install AIDL
       - name: Install AIDL
         run: |
-          wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/android4me.aidl/aidl
+          sudo apt-get install -y aidl
           chmod +x aidl
           sudo mv aidl /usr/bin/aidl
 
